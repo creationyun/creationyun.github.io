@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> 수도권 지하철 환승 시간표 </title>
+<script>
+function _submit()
+{
+	var arrival = document.getElementById('arrival').value;
+	var transfer = document.getElementById('transfer').value
+	if (arrival.substr(0,2) === transfer.substr(0,2)) {
+		alert('서로 다른 노선이어야 합니다.');
+		return;
+	}
+	
+	window.location.href = "choji-saturday-" + arrival + "-" + transfer + ".html";
+}
+</script>
+</head>
+<body>
+
+<form>
+	<label for="arrival">타고 온 열차:</label>
+	<select name="arrival" id="arrival">
+		<option value="l4u">4호선 당고개 방면 열차</option>
+		<option value="l4d">4호선 오이도 방면 열차</option>
+		<option value="shu">서해선 소사 방면 열차</option>
+		<option value="shd">서해선 원시 방면 열차</option>
+	</select>
+	<br><br>
+	<label for="transfer">환승해서 탈 열차:</label>
+	<select name="transfer" id="transfer">
+		<option value="l4u">4호선 당고개 방면 열차</option>
+		<option value="l4d">4호선 오이도 방면 열차</option>
+		<option value="shu">서해선 소사 방면 열차</option>
+		<option value="shd">서해선 원시 방면 열차</option>
+	</select>
+	<br><br>
+	<input type="button" value="확인" onclick="_submit();">
+</form>
+
+</body>
+</html>

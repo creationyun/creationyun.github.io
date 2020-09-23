@@ -4,9 +4,14 @@
 <script>
 function _submit()
 {
-	window.location.href = "imae-weekday-"
-	+ document.getElementById('arrival').value + "-"
-	+ document.getElementById('transfer').value + ".html";
+	var arrival = document.getElementById('arrival').value;
+	var transfer = document.getElementById('transfer').value
+	if (arrival.substr(0,2) === transfer.substr(0,2)) {
+		alert('서로 다른 노선이어야 합니다.');
+		return;
+	}
+	
+	window.location.href = "imae-weekday-" + arrival + "-" + transfer + ".html";
 }
 </script>
 </head>
@@ -17,10 +22,14 @@ function _submit()
 	<select name="arrival" id="arrival">
 		<option value="sbu">수인분당선 왕십리 방면 열차</option>
 		<option value="sbd">수인분당선 고색/인천 방면 열차</option>
+		<option value="ggu">경강선 판교 방면 열차</option>
+		<option value="ggd">경강선 여주 방면 열차</option>
 	</select>
 	<br><br>
 	<label for="transfer">환승해서 탈 열차:</label>
 	<select name="transfer" id="transfer">
+		<option value="sbu">수인분당선 왕십리 방면 열차</option>
+		<option value="sbd">수인분당선 고색/인천 방면 열차</option>
 		<option value="ggu">경강선 판교 방면 열차</option>
 		<option value="ggd">경강선 여주 방면 열차</option>
 	</select>

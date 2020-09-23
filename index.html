@@ -1,8 +1,27 @@
 <html>
 <head>
 <title> 수도권 지하철 환승 시간표 </title>
+<script>
+function _submit()
+{
+	window.location.href = document.getElementById('station').value;
+}
+</script>
 </head>
 <body>
-준비중입니다.
+
+<form>
+	<label for="station">환승 지하철역: </label>
+	<select name="station" id="station">
+		<option value="imae">이매역</option>
+		<!--
+		<option value="choji">초지역</option>
+		<option value="sinnae">신내역</option>
+		-->
+	</select>
+	<br><br>
+	<input type="button" value="확인" onclick="_submit();">
+</form>
+
 </body>
 </html>

@@ -15,7 +15,6 @@ Name: Changjo Yun (윤창조)
 Contact:
 
 + email: creationyun@gmail.com
-+ phone: (+82) 010-8446-5198
 
 # Technical Skills
 

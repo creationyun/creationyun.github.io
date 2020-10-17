@@ -4,7 +4,7 @@ layout: default
 
 This is a Creation Yun's homepage.
 
-수도권 지하철 환승 시간표를 찾으신다면, [여기](http://midnightguidetohome.kro.kr/timetable/)를 클릭해주세요.
+수도권 지하철 환승 시간표를 찾으신다면, [여기](http://www.midnightguidetohome.info/timetable/)를 클릭해주세요.
 
 # Profile
 
@@ -48,7 +48,7 @@ Contact:
 # What I made
 
 + This GitHub page :)
-+ [수도권 지하철 환승 시간표 (Seoul Metropolitan Subway Transfer Timetable Service)](http://midnightguidetohome.kro.kr/timetable/)
++ [수도권 지하철 환승 시간표 (Seoul Metropolitan Subway Transfer Timetable Service)](http://www.midnightguidetohome.info/timetable/)
 + [TransferTimetable](https://github.com/creationyun/TransferTimetable): Train Station Timetables Comparison (Written in Python 3.x)
 + [MidnightGuideToHome](https://github.com/creationyun/MidnightGuideToHome): Web Server and Chatbot API for 'Guide To Home' at Midnight (Written in Django, Python 3.x, and HTML templates)
 + [CrawlingRules](https://github.com/creationyun/CrawlingRules): Crawling Helper with Defining Rules in Django, Python 3.x 

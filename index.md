@@ -25,7 +25,7 @@ Contact:
 + Korea University - Dept. of Computer Science (1st major) + Information Security (2nd major)
   + 2017 \~ 2021
 + KITRI BoB 9th - Track of Security Product Development
-  + 2020\. 7 \~ 2021\. 2
+  + 2020\. 7 \~ 2021\. 3
 
 # Technical Skills
 
@@ -79,6 +79,15 @@ Contact:
 
 + Changjo Yun, Kyonggon Kim (2020), A Study of Shellcode Exploitation and Mitigation via Python Pickle Module, 2020 한국정보보호학회 하계학술대회 (CISC-S'20)
 
+# Awards
+
++ 2015/11/21: 2015년도 정보보호영재교육원 해킹경진대회 장려상
++ 2016/10/28: 제33회 한국정보올림피아드 경시대회 고등부 동상
+
+# Certification
+
++ 2021/03: KITRI BoB 9th - BEST 10 (Grand Prix)
+
 # What I made
 
 + This GitHub page :)
@@ -95,6 +104,6 @@ Contact:
 + [FAST (Fileless Attack Solution Team)](https://github.com/bobfast/fast) Project: Detect/Protect/Analyze/Report **File-less (Living off the Land) Attacks** by Windows API Hooking
   + KITRI BoB 9th Project (2020. 9 \~ 2020. 12)
 
-+ Gyeongui-jungang Line **Train Delay Time Prediction** using **Deep Learning** (RNN/LSTM)
++ KORAIL 경의중앙선(Gyeongui-jungang Line) **Train Delay Time Prediction** using **Deep Learning** (RNN/LSTM)
   + Korea University Deep Learning (COSE474) Project (2020. 9 \~ 2020. 12)
 

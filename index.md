@@ -47,7 +47,7 @@ Contact:
   + Linux Kernel - proc module programming
     + Netfilter
 + Python
-  + Tensorflow / Keras
+  + Tensorflow / Keras (Machine Learning Library)
   + numpy, pandas, scikit-learn
   + Django
   + Pwntools
@@ -75,6 +75,15 @@ Contact:
 + MySQL (MariaDB)
 + MongoDB
 
+## Hacking & Security
+
+### Reverse Engineering & Binary Analysis
+
++ IDA Pro 7.x + IDAPython
++ Ghidra
++ OllyDbg, x64dbg
++ WinDbg
+
 # Papers
 
 + Changjo Yun, Kyonggon Kim (2020), A Study of Shellcode Exploitation and Mitigation via Python Pickle Module, 2020 한국정보보호학회 하계학술대회 (CISC-S'20)
@@ -98,6 +107,7 @@ Contact:
 + [MidnightGuideToHome](https://github.com/creationyun/MidnightGuideToHome): Web Server and Chatbot API for 'Guide To Home' at Midnight (Written in Django, Python 3.x, and HTML templates)
 + [CrawlingRules](https://github.com/creationyun/CrawlingRules): Crawling Helper with Defining Rules in Django, Python 3.x
 + [RtlCreateUserThread-Injection](https://github.com/creationyun/RtlCreateUserThread-Injection): Process Shellcode Injection using RtlCreateUserThread
++ [bob9-connect6](https://github.com/creationyun/bob9-connect6): Connect6 Game Protocol Library and Server (Extension of Gomoku) for BoB 9th Security Product Development Track Contest
 
 # What I contributed (team projects)
 

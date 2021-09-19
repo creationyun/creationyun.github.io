@@ -26,6 +26,8 @@ Contact:
   + 2017 \~ 2021
 + KITRI BoB 9th - Track of Security Product Development
   + 2020\. 7 \~ 2021\. 3
++ KAIST GSIS (Graduate School of Information Security)
+  + 2021.9 \~
 
 # Technical Skills
 

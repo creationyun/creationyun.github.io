@@ -6,7 +6,7 @@ This is a Creation Yun's profile.
 
 # Profile
 
-I am a Korea University computer science student since 2017.
+I am a KAIST graduate student (master) since 2021.
 
 Name: Changjo Yun (윤창조)
 

@@ -39,6 +39,7 @@ Contact:
 + C# (.NET)
 + Shell scripts
   + bash
++ OCaml
 
 ## Programming Library Skills
 
